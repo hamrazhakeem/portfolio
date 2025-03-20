@@ -31,7 +31,7 @@ const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
                     }}
                 >
                     <Image
-                        src="/Proffesional Profile Picture.jfif"
+                        src="/hamraz-portrait.jpg"
                         alt="Hamraz portrait"
                         width="192"
                         height="192"
