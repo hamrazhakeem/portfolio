@@ -73,7 +73,7 @@ export const projectsData = [
       "A responsive Netflix UI replica built with React, integrating TMDB API for dynamic content rendering.",
     tags: ["React", "TMDB API", "Tailwind"],
     imageUrl: netflixcloneImg,
-    link: "https://hamraz-hakeem-netflix.vercel.app/login",
+    link: "https://hamraz-hakeem-netflix.vercel.app",
   },
 ] as const;
 
