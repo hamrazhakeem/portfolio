@@ -57,7 +57,7 @@ export const projectsData = [
       "Architected and developed a microservices-based language learning platform using Docker and Kubernetes.",
     tags: ["Python", "DRF", "React", "Redux", "Tailwind", "WebSocket", "RabbitMQ", "gRPC"],
     imageUrl: speakinImg,
-    link: "https://speakin.hamrazhakeem.site",
+    link: "https://speakin.hamrazhakeem.tech",
   },
   {
     title: "BestView",
@@ -65,7 +65,7 @@ export const projectsData = [
       "Developed a monolithic e-commerce application with secure PayPal integration and deployed it on AWS.",
     tags: ["Python", "Django", "Bootstrap", "AWS", "NGINX"],
     imageUrl: bestviewImg,
-    link: "https://bestview.hamrazhakeem.site",
+    link: "https://bestview.hamrazhakeem.tech",
   },
   {
     title: "Netflix Clone",
