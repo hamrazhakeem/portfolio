@@ -1,7 +1,6 @@
 import React from "react";
 import { FaLaptopCode, FaUniversity } from "react-icons/fa";
 import bestviewImg from "@/public/bestview.png";
-import netflixcloneImg from "@/public/netflixclone.png";
 import speakinImg from "@/public/speakin.png";
 
 export const links = [
@@ -66,14 +65,6 @@ export const projectsData = [
     tags: ["Python", "Django", "Bootstrap", "AWS", "NGINX"],
     imageUrl: bestviewImg,
     link: "https://bestview.hamrazhakeem.tech",
-  },
-  {
-    title: "Netflix Clone",
-    description:
-      "A responsive Netflix UI replica built with React, integrating TMDB API for dynamic content rendering.",
-    tags: ["React", "TMDB API", "Tailwind"],
-    imageUrl: netflixcloneImg,
-    link: "https://hamraz-hakeem-netflix.vercel.app",
   },
 ] as const;
 
