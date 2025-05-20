@@ -39,7 +39,7 @@ export const experienceData = [
     title: "Analyst",
     location: "DataBeat, Hyderabad",
     description:
-      "Currently contributing to the development of a data-focused web application, where I build features, develop and integrate APIs, and work with internal systems and data workflows. This role has helped me strengthen my understanding of real-world product development and team collaboration in a professional environment.",
+      "Currently contributing to building software solutions in a data-focused domain, where I build features, develop and integrate APIs, and work with internal systems and data workflows. This role has strengthened my understanding of real-world product development and cross-functional collaboration in a professional environment.",
     icon: React.createElement(FaBriefcase),
     date: "2025 - Present",
   },

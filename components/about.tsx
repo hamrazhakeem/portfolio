@@ -27,7 +27,7 @@ export default function About() {
   </p>
 
   <p>
-    Currently, I develop web applications in the data domain, building features, integrating systems, and managing data workflows. This role has strengthened my ability to solve problems holistically while deepening my knowledge and passion for impactful software solutions.
+    Currently, I develop software solutions in the data domain, building features, integrating systems, and managing data workflows. This role has strengthened my ability to solve problems holistically while deepening my knowledge and passion for impactful software solutions.
   </p>
     </motion.section>
   );
