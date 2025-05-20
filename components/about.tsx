@@ -19,15 +19,15 @@ export default function About() {
     >
   <SectionHeading>About me</SectionHeading>
   <p className="mb-3">
-    I'm <span className="font-medium">Hamraz Hakeem</span>, a self-taught <span className="font-medium">Full Stack Developer</span> passionate about building scalable solutions. My journey wasn't traditional—I started with a <span className="font-medium">BBA</span> before leaving college to pursue software development at <span className="font-medium">Brototype</span>, where I transformed my passion into expertise.
+    I’m Hamraz Hakeem, a self-taught Full Stack Developer passionate about building scalable and efficient solutions. My journey into tech wasn’t traditional—I started with a BBA but left college to fully focus on software development, turning curiosity into real skills through hands-on learning.
   </p>
 
   <p className="mb-3">
-    At Brototype, I built two major projects: an <span className="font-medium">E-commerce Platform</span> with authentication and payments, and a microservices-based <span className="font-medium">Booking Application</span> for session scheduling. Through these and other mini projects, I mastered <span className="font-medium">Python, Django, React, PostgreSQL, Docker, and Kubernetes</span>.
+    I’ve gained practical experience with Python, Django, React, PostgreSQL, Docker, Kubernetes, and RESTful APIs. Comfortable working across both frontend and backend, I enjoy creating clean, efficient code and reliable, maintainable systems.
   </p>
 
   <p>
-    I thrive on continuous learning and solving complex challenges. I'm passionate about writing clean, scalable code and building efficient systems. I'm currently seeking <span className="font-medium">Full Stack Developer</span> roles where I can contribute to innovative projects, collaborate with skilled teams, and further enhance my expertise in software development.
+    Currently, I develop web applications in the data domain, building features, integrating systems, and managing data workflows. This role has strengthened my ability to solve problems holistically while deepening my knowledge and passion for impactful software solutions.
   </p>
     </motion.section>
   );

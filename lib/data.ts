@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLaptopCode, FaUniversity } from "react-icons/fa";
+import { FaLaptopCode, FaUniversity, FaBriefcase } from "react-icons/fa";
 import bestviewImg from "@/public/bestview.png";
 import speakinImg from "@/public/speakin.png";
 
@@ -21,12 +21,27 @@ export const links = [
     hash: "#skills",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Education",
     hash: "#education",
   },
   {
     name: "Contact",
     hash: "#contact",
+  },
+] as const;
+
+export const experienceData = [
+  {
+    title: "Analyst",
+    location: "DataBeat, Hyderabad",
+    description:
+      "Currently contributing to the development of a data-focused web application, where I build features, develop and integrate APIs, and work with internal systems and data workflows. This role has helped me strengthen my understanding of real-world product development and team collaboration in a professional environment.",
+    icon: React.createElement(FaBriefcase),
+    date: "2025 - Present",
   },
 ] as const;
 
@@ -37,7 +52,7 @@ export const educationData = [
     description:
       "I completed a 32-week full-stack program, built two full-scale projects, mentored junior developers, provided technical guidance, and assisted in workshops.",
     icon: React.createElement(FaLaptopCode),
-    date: "2023 - Present",
+    date: "2023 - 2025",
   },
   {
     title: "BBA in Aviation and Logistics",
@@ -56,7 +71,8 @@ export const projectsData = [
       "Architected and developed a microservices-based language learning platform using Docker and Kubernetes.",
     tags: ["Python", "DRF", "React", "Redux", "Tailwind", "WebSocket", "RabbitMQ", "gRPC"],
     imageUrl: speakinImg,
-    link: "https://speakin.hamrazhakeem.tech",
+    link: "https://github.com/hamrazhakeem/speakin",
+    // link: "https://speakin.hamrazhakeem.tech",
   },
   {
     title: "BestView",
@@ -64,7 +80,8 @@ export const projectsData = [
       "Developed a monolithic e-commerce application with secure PayPal integration and deployed it on AWS.",
     tags: ["Python", "Django", "Bootstrap", "AWS", "NGINX"],
     imageUrl: bestviewImg,
-    link: "https://bestview.hamrazhakeem.tech",
+    link: "https://github.com/hamrazhakeem/bestview-ecommerce",
+    // link: "https://bestview.hamrazhakeem.tech",
   },
 ] as const;
 
@@ -98,4 +115,5 @@ export const skillsData = [
   "GitHub Actions",
   "Postman",
   "AWS (EC2, EKS, RDS, ALB)",
+  "Data Ingestion"
 ] as const;

@@ -64,7 +64,7 @@ const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
         >
         <span className="font-bold">Hello, I'm Hamraz Hakeem.</span> A{" "}
         <span className="font-bold">Full-Stack Developer</span> specializing in{" "}
-        <span className="font-bold">React, Django, and Microservices</span>, I enjoy building scalable Web Applications.
+        <span className="font-bold">Python, Django and React</span>, I enjoy building scalable Web Applications.
         </motion.h1>
 
         <motion.div
