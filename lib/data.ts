@@ -115,5 +115,6 @@ export const skillsData = [
   "GitHub Actions",
   "Postman",
   "AWS (EC2, EKS, RDS, ALB)",
-  "Data Ingestion"
+  "Data Ingestion",
+  "Cron Jobs"
 ] as const;
