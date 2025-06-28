@@ -39,7 +39,7 @@ export const experienceData = [
     title: "Analyst",
     location: "DataBeat, Hyderabad",
     description:
-      "Currently contributing to the development of web applications in a data-focused domain, where I build features, develop and integrate APIs, and work with internal systems and data workflows. This role has helped me strengthen my understanding of real-world product development and team collaboration in a professional environment.",
+      "Contributing to full-stack web app development in a data-driven environment—designing UIs, building features, integrating APIs, and managing data workflows. This role has deepened my frontend and backend skills and deepened my understanding of product development and team collaboration.",
     icon: React.createElement(FaBriefcase),
     date: "2025 - Present",
   },
@@ -101,6 +101,7 @@ export const skillsData = [
   "PayPal",
   "Firebase",
   "React",
+  "Next.js",
   "Redux",
   "JavaScript",
   "Tailwind",
