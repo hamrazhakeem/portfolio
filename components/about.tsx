@@ -19,7 +19,7 @@ export default function About() {
     >
   <SectionHeading>About me</SectionHeading>
   <p className="mb-3">
-    I'm Hamraz Hakeem, a self-taught Full Stack Developer passionate about building scalable and efficient solutions, turning curiosity into real skills through hands-on learning.
+    I'm Hamraz Hakeem, a self-taught Full Stack Developer passionate about building scalable and efficient solutions. My journey into tech wasn't traditional—I started with a BBA but left college to fully focus on software development, turning curiosity into real skills through hands-on learning.
   </p>
 
   <p className="mb-3">
