@@ -36,10 +36,10 @@ export const links = [
 
 export const experienceData = [
   {
-    title: "Analyst",
+    title: "Full Stack Developer & Product Owner",
     location: "DataBeat, Hyderabad",
     description:
-      "Contributing to full-stack web app development in a data-driven environment—designing UIs, building features, integrating APIs, and managing data workflows. This role has deepened my frontend and backend skills and deepened my understanding of product development and team collaboration.",
+      "Product owner for DataBeat's in-house ETL platform, scaling data-source integrations from 3 to 45+ APIs. Diagnosed a core scaling bottleneck and proposed migrating the import pipeline to Google Cloud Run Jobs for parallel, pay-per-use processing. Led remediation of 17 vulnerabilities across two independent security audits (penetration test + source code review), covering authentication, input validation, and application hardening. Also built an internal sales & finance dashboard adopted by directors and C-level stakeholders, and an internal ticketing system replacing a paid third-party tool.",
     icon: React.createElement(FaBriefcase),
     date: "2025 - Present",
   },
@@ -53,14 +53,6 @@ export const educationData = [
       "I completed a 32-week full-stack program, built two full-scale projects, mentored junior developers, provided technical guidance, and assisted in workshops.",
     icon: React.createElement(FaLaptopCode),
     date: "2023 - 2025",
-  },
-  {
-    title: "BBA in Aviation and Logistics",
-    location: "Yenepoya University, Mangalore",
-    description:
-      "I completed foundational coursework in business administration, strengthening my analytical and problem-solving skills.",
-    icon: React.createElement(FaUniversity),
-    date: "2022 - 2023",
   },
 ] as const;
 
@@ -87,23 +79,29 @@ export const projectsData = [
 
 export const skillsData = [
   "Python",
+  "SQL",
   "Django",
   "Microservices",
   "ORM",
   "PostgreSQL",
   "DRF",
-  "JWT",
+  "JWT (RS256)",
+  "Google reCAPTCHA",
   "Django Channels",
+  "Celery",
+  "Celery Beat",
   "Redis",
   "RabbitMQ",
   "gRPC",
   "Stripe",
   "PayPal",
   "Firebase",
+  "Pandas",
   "React",
   "Next.js",
   "Redux",
   "JavaScript",
+  "TypeScript",
   "Tailwind",
   "Bootstrap",
   "HTML",
@@ -111,11 +109,18 @@ export const skillsData = [
   "WebSocket",
   "Docker",
   "Kubernetes",
+  "Nginx",
   "CI/CD",
+  "SonarQube",
   "Git",
   "GitHub Actions",
   "Postman",
-  "AWS (EC2, EKS, RDS, ALB)",
-  "Data Ingestion",
-  "Cron Jobs"
+  "AWS (EC2, EKS, RDS, ALB, S3)",
+  "Google BigQuery",
+  "Google Cloud Storage (GCS)",
+  "Google Cloud Run Jobs",
+  "Claude Code",
+  "GitHub Copilot",
+  "Cursor",
+  "OpenAI Codex",
 ] as const;

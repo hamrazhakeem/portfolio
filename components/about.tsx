@@ -19,7 +19,7 @@ export default function About() {
     >
   <SectionHeading>About me</SectionHeading>
   <p className="mb-3">
-    I’m Hamraz Hakeem, a self-taught Full Stack Developer passionate about building scalable and efficient solutions. My journey into tech wasn’t traditional—I started with a BBA but left college to fully focus on software development, turning curiosity into real skills through hands-on learning.
+    I'm Hamraz Hakeem, a self-taught Full Stack Developer passionate about building scalable and efficient solutions, turning curiosity into real skills through hands-on learning.
   </p>
 
   <p className="mb-3">
@@ -27,7 +27,7 @@ export default function About() {
   </p>
 
   <p>
-    Currently, I develop web applications in the data domain, building features, integrating systems, and managing data workflows. This role has strengthened my ability to solve problems holistically while deepening my knowledge and passion for impactful software solutions.
+    Currently, I own DataBeat's in-house ETL platform as a full stack developer and product owner-scaling integrations, improving system architecture, and leading security remediation efforts. This role has strengthened my ability to solve problems holistically while deepening my knowledge and passion for impactful software solutions.
   </p>
     </motion.section>
   );
