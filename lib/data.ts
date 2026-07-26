@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLaptopCode, FaUniversity, FaBriefcase } from "react-icons/fa";
+import { FaLaptopCode, FaBriefcase } from "react-icons/fa";
 import bestviewImg from "@/public/bestview.png";
 import speakinImg from "@/public/speakin.png";
 
