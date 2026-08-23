@@ -32,7 +32,7 @@ export default function Header() {
                   "flex w-full items-center justify-center px-3 py-3 transition",
                   activeSection === link.name
                     ? "text-gray-950 dark:text-white" // Active link - always white in dark mode
-                    : "text-gray-500 hover:text-gray-950 dark:text-gray-500 dark:hover:text-gray-300" // Inactive links
+                    : "text-gray-500 dark:text-gray-500 [@media(hover:hover)]:hover:text-gray-950 dark:[@media(hover:hover)]:hover:text-gray-300" // Inactive links
                 )}
                   href={link.hash}
                   onClick={() => {
