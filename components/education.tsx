@@ -18,7 +18,7 @@ export default function Education() {
   return (
     <section id="education" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Education & Training</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline lineColor="" animate={false}>
         {educationData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
