@@ -64,7 +64,6 @@ export const projectsData = [
     tags: ["Python", "DRF", "React", "Redux", "Tailwind", "WebSocket", "RabbitMQ", "gRPC"],
     imageUrl: speakinImg,
     link: "https://github.com/hamrazhakeem/speakin",
-    // link: "https://speakin.hamrazhakeem.tech",
   },
   {
     title: "BestView",
@@ -73,7 +72,6 @@ export const projectsData = [
     tags: ["Python", "Django", "Bootstrap", "AWS", "NGINX"],
     imageUrl: bestviewImg,
     link: "https://github.com/hamrazhakeem/bestview-ecommerce",
-    // link: "https://bestview.hamrazhakeem.tech",
   },
 ] as const;
 

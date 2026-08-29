@@ -27,7 +27,7 @@ export default function About() {
   </p>
 
   <p>
-    Currently, I own DataBeat's in-house ETL platform as a full stack developer and product owner-scaling integrations, improving system architecture, and leading security remediation efforts. This role has strengthened my ability to solve problems holistically while deepening my knowledge and passion for impactful software solutions.
+    I've spent my career scaling data platforms, hardening application security, and improving system architecture from the ground up. This work has strengthened my ability to solve problems holistically while deepening my knowledge and passion for impactful software solutions.
   </p>
     </motion.section>
   );
