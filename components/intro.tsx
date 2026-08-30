@@ -62,9 +62,10 @@ const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
         >
-        <span className="font-bold">Hello, I'm Hamraz Hakeem.</span> A{" "}
+        Hello, I'm <span className="font-bold">Hamraz Hakeem</span>, a{" "}
         <span className="font-bold">Full-Stack Developer</span> specializing in{" "}
-        <span className="font-bold">Python, Django and React</span>, I enjoy building scalable Web Applications.
+        <span className="font-bold">Python, Django, and React</span> with a focus on building{" "}
+        <span className="font-bold">scalable, production-ready web applications</span>.
         </motion.h1>
 
         <motion.div
